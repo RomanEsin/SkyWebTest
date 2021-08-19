@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		F139CDB326CE4B1B004C7B72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F139CDB226CE4B1B004C7B72 /* AppDelegate.swift */; };
 		F139CDB526CE4B1B004C7B72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F139CDB426CE4B1B004C7B72 /* SceneDelegate.swift */; };
-		F139CDB726CE4B1B004C7B72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F139CDB626CE4B1B004C7B72 /* ViewController.swift */; };
+		F139CDB726CE4B1B004C7B72 /* CategoriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F139CDB626CE4B1B004C7B72 /* CategoriesController.swift */; };
 		F139CDBA26CE4B1B004C7B72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F139CDB826CE4B1B004C7B72 /* Main.storyboard */; };
 		F139CDBC26CE4B1B004C7B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F139CDBB26CE4B1B004C7B72 /* Assets.xcassets */; };
 		F139CDBF26CE4B1B004C7B72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F139CDBD26CE4B1B004C7B72 /* LaunchScreen.storyboard */; };
+		F139CDC826CE4C30004C7B72 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F139CDC726CE4C30004C7B72 /* Networking.swift */; };
+		F139CDCA26CE4C8A004C7B72 /* SWApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F139CDC926CE4C8A004C7B72 /* SWApi.swift */; };
+		F139CDCD26CE4E14004C7B72 /* SWResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F139CDCC26CE4E14004C7B72 /* SWResponse.swift */; };
+		F139CDCF26CE4F2D004C7B72 /* SWProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F139CDCE26CE4F2D004C7B72 /* SWProduct.swift */; };
+		F139CDD126CE4F98004C7B72 /* SWCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F139CDD026CE4F98004C7B72 /* SWCategory.swift */; };
+		F139CDD526CE5145004C7B72 /* SWCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F139CDD326CE5145004C7B72 /* SWCategoryCell.swift */; };
+		F139CDD626CE5145004C7B72 /* SWCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F139CDD426CE5145004C7B72 /* SWCategoryCell.xib */; };
+		F139CDDA26CE5E3F004C7B72 /* SWTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F139CDD926CE5E3F004C7B72 /* SWTableViewController.swift */; };
+		F139CDDD26CE5EA7004C7B72 /* CategoryItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F139CDDC26CE5EA7004C7B72 /* CategoryItemsViewController.swift */; };
+		F139CDE126CE654E004C7B72 /* SWProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F139CDDF26CE654E004C7B72 /* SWProductCell.swift */; };
+		F139CDE226CE654E004C7B72 /* SWProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F139CDE026CE654E004C7B72 /* SWProductCell.xib */; };
+		F139CDE426CE6CEB004C7B72 /* SWDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F139CDE326CE6CEB004C7B72 /* SWDataSource.swift */; };
+		F139CDEA26CE6E80004C7B72 /* ProductOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F139CDE826CE6E80004C7B72 /* ProductOverviewViewController.swift */; };
+		F139CDEB26CE6E80004C7B72 /* ProductOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F139CDE926CE6E80004C7B72 /* ProductOverviewViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F139CDAF26CE4B1B004C7B72 /* SkyWebTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyWebTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F139CDB226CE4B1B004C7B72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F139CDB426CE4B1B004C7B72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F139CDB626CE4B1B004C7B72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F139CDB626CE4B1B004C7B72 /* CategoriesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesController.swift; sourceTree = "<group>"; };
 		F139CDB926CE4B1B004C7B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F139CDBB26CE4B1B004C7B72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F139CDBE26CE4B1B004C7B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F139CDC026CE4B1B004C7B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F139CDC726CE4C30004C7B72 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		F139CDC926CE4C8A004C7B72 /* SWApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWApi.swift; sourceTree = "<group>"; };
+		F139CDCC26CE4E14004C7B72 /* SWResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWResponse.swift; sourceTree = "<group>"; };
+		F139CDCE26CE4F2D004C7B72 /* SWProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWProduct.swift; sourceTree = "<group>"; };
+		F139CDD026CE4F98004C7B72 /* SWCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCategory.swift; sourceTree = "<group>"; };
+		F139CDD326CE5145004C7B72 /* SWCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCategoryCell.swift; sourceTree = "<group>"; };
+		F139CDD426CE5145004C7B72 /* SWCategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SWCategoryCell.xib; sourceTree = "<group>"; };
+		F139CDD926CE5E3F004C7B72 /* SWTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTableViewController.swift; sourceTree = "<group>"; };
+		F139CDDC26CE5EA7004C7B72 /* CategoryItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemsViewController.swift; sourceTree = "<group>"; };
+		F139CDDF26CE654E004C7B72 /* SWProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWProductCell.swift; sourceTree = "<group>"; };
+		F139CDE026CE654E004C7B72 /* SWProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SWProductCell.xib; sourceTree = "<group>"; };
+		F139CDE326CE6CEB004C7B72 /* SWDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWDataSource.swift; sourceTree = "<group>"; };
+		F139CDE826CE6E80004C7B72 /* ProductOverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOverviewViewController.swift; sourceTree = "<group>"; };
+		F139CDE926CE6E80004C7B72 /* ProductOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductOverviewViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +84,101 @@
 		F139CDB126CE4B1B004C7B72 /* SkyWebTest */ = {
 			isa = PBXGroup;
 			children = (
-				F139CDB226CE4B1B004C7B72 /* AppDelegate.swift */,
-				F139CDB426CE4B1B004C7B72 /* SceneDelegate.swift */,
-				F139CDB626CE4B1B004C7B72 /* ViewController.swift */,
-				F139CDB826CE4B1B004C7B72 /* Main.storyboard */,
+				F139CDDB26CE5E49004C7B72 /* Core */,
+				F139CDD826CE5E34004C7B72 /* Controllers */,
+				F139CDD226CE50CA004C7B72 /* Views */,
+				F139CDC626CE4BFD004C7B72 /* SkyWebAPI */,
 				F139CDBB26CE4B1B004C7B72 /* Assets.xcassets */,
 				F139CDBD26CE4B1B004C7B72 /* LaunchScreen.storyboard */,
 				F139CDC026CE4B1B004C7B72 /* Info.plist */,
 			);
 			path = SkyWebTest;
+			sourceTree = "<group>";
+		};
+		F139CDC626CE4BFD004C7B72 /* SkyWebAPI */ = {
+			isa = PBXGroup;
+			children = (
+				F139CDC726CE4C30004C7B72 /* Networking.swift */,
+				F139CDC926CE4C8A004C7B72 /* SWApi.swift */,
+				F139CDCB26CE4C9F004C7B72 /* Models */,
+			);
+			path = SkyWebAPI;
+			sourceTree = "<group>";
+		};
+		F139CDCB26CE4C9F004C7B72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F139CDCC26CE4E14004C7B72 /* SWResponse.swift */,
+				F139CDCE26CE4F2D004C7B72 /* SWProduct.swift */,
+				F139CDD026CE4F98004C7B72 /* SWCategory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F139CDD226CE50CA004C7B72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F139CDDE26CE653A004C7B72 /* SWProductCell */,
+				F139CDD726CE5149004C7B72 /* SWCategoryCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F139CDD726CE5149004C7B72 /* SWCategoryCell */ = {
+			isa = PBXGroup;
+			children = (
+				F139CDD326CE5145004C7B72 /* SWCategoryCell.swift */,
+				F139CDD426CE5145004C7B72 /* SWCategoryCell.xib */,
+			);
+			path = SWCategoryCell;
+			sourceTree = "<group>";
+		};
+		F139CDD826CE5E34004C7B72 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F139CDE326CE6CEB004C7B72 /* SWDataSource.swift */,
+				F139CDD926CE5E3F004C7B72 /* SWTableViewController.swift */,
+				F139CDB626CE4B1B004C7B72 /* CategoriesController.swift */,
+				F139CDEC26CE86C6004C7B72 /* Products */,
+				F139CDE526CE6E24004C7B72 /* ProductOverview */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F139CDDB26CE5E49004C7B72 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F139CDB426CE4B1B004C7B72 /* SceneDelegate.swift */,
+				F139CDB226CE4B1B004C7B72 /* AppDelegate.swift */,
+				F139CDB826CE4B1B004C7B72 /* Main.storyboard */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F139CDDE26CE653A004C7B72 /* SWProductCell */ = {
+			isa = PBXGroup;
+			children = (
+				F139CDDF26CE654E004C7B72 /* SWProductCell.swift */,
+				F139CDE026CE654E004C7B72 /* SWProductCell.xib */,
+			);
+			path = SWProductCell;
+			sourceTree = "<group>";
+		};
+		F139CDE526CE6E24004C7B72 /* ProductOverview */ = {
+			isa = PBXGroup;
+			children = (
+				F139CDE826CE6E80004C7B72 /* ProductOverviewViewController.swift */,
+				F139CDE926CE6E80004C7B72 /* ProductOverviewViewController.xib */,
+			);
+			path = ProductOverview;
+			sourceTree = "<group>";
+		};
+		F139CDEC26CE86C6004C7B72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F139CDDC26CE5EA7004C7B72 /* CategoryItemsViewController.swift */,
+			);
+			path = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +240,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F139CDBF26CE4B1B004C7B72 /* LaunchScreen.storyboard in Resources */,
+				F139CDEB26CE6E80004C7B72 /* ProductOverviewViewController.xib in Resources */,
 				F139CDBC26CE4B1B004C7B72 /* Assets.xcassets in Resources */,
 				F139CDBA26CE4B1B004C7B72 /* Main.storyboard in Resources */,
+				F139CDD626CE5145004C7B72 /* SWCategoryCell.xib in Resources */,
+				F139CDE226CE654E004C7B72 /* SWProductCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +255,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F139CDB726CE4B1B004C7B72 /* ViewController.swift in Sources */,
+				F139CDB726CE4B1B004C7B72 /* CategoriesController.swift in Sources */,
+				F139CDE426CE6CEB004C7B72 /* SWDataSource.swift in Sources */,
+				F139CDE126CE654E004C7B72 /* SWProductCell.swift in Sources */,
+				F139CDD526CE5145004C7B72 /* SWCategoryCell.swift in Sources */,
+				F139CDCA26CE4C8A004C7B72 /* SWApi.swift in Sources */,
+				F139CDDD26CE5EA7004C7B72 /* CategoryItemsViewController.swift in Sources */,
 				F139CDB326CE4B1B004C7B72 /* AppDelegate.swift in Sources */,
+				F139CDD126CE4F98004C7B72 /* SWCategory.swift in Sources */,
+				F139CDDA26CE5E3F004C7B72 /* SWTableViewController.swift in Sources */,
 				F139CDB526CE4B1B004C7B72 /* SceneDelegate.swift in Sources */,
+				F139CDC826CE4C30004C7B72 /* Networking.swift in Sources */,
+				F139CDEA26CE6E80004C7B72 /* ProductOverviewViewController.swift in Sources */,
+				F139CDCD26CE4E14004C7B72 /* SWResponse.swift in Sources */,
+				F139CDCF26CE4F2D004C7B72 /* SWProduct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +425,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +454,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
